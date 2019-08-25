@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flight API Contract Test response should matched with snapshots 1`] = `"success"`;
+
+exports[`Flight API Contract Test response should matched with snapshots 2`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 3`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 4`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 5`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 6`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 7`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 8`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 9`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 10`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 11`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 12`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 13`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 14`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 15`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 16`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
+
+exports[`Flight API Contract Test response should matched with snapshots 17`] = `
+Object {
+  "aircraft": ObjectContaining {
+    "manufacturer": toBeOneOf<Boeing,Airbus>,
+    "model": Any<String>,
+  },
+  "airline": Any<String>,
+  "arrive": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "depart": StringMatching /\\[0-9\\]\\{4\\}-\\[0-9\\]\\{2\\}-\\[0-9\\]\\{2\\}T\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}\\.\\[0-9\\]\\{3\\}\\\\\\+\\[0-9\\]\\{2\\}:\\[0-9\\]\\{2\\}/,
+  "flight": ObjectContaining {
+    "code": Any<String>,
+    "number": Any<Number>,
+  },
+  "flightStatus": toBeOneOf<SCHEDULED,DELAYED,DIVERTED>,
+  "isDirectFlight": Any<Boolean>,
+}
+`;
