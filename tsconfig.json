@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./built",
+        "diagnostics": true,
+        "module": "commonjs",
+        "checkJs": false,
+        "target": "es2017",
+        "allowJs": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "tests/*"
+            ]
+        }
+    },
+    "include": [
+        "**/*.js"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
